@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+}
+header {
+  background-color: #1f2937;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 800;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+header nav a {
+  color: #e5e7eb;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.hero-img {
+  height: auto;
+  width: 25rem;
+}
+
+.hero {
+  background-color: #1f2937;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin: 0 auto;
+}
+
+h1 + p {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.container button {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 5px;
+    padding: 2px 20px;
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.imgsubtext {
+    flex-direction: column;
+    color: #1F2937;
+
+}
+
+.imgsubtext-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgsubtext h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.figure {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.figure img {
+    border-radius: 5px;
+}
+
+.quote-div {
+    background-color: #E5E7EB;
+}
+
+.quote-div .container {
+    flex-direction: column;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1F2937;
+}
+
+blockquote + h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    align-self: flex-end;
+}
+
+.cta-bg {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 3rem 5rem;
+    border-radius: 10px;
+}
+
+.cta-bg button {
+    border: 5px solid #fff;
+    height: 3.5rem;
+    margin: 0 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
